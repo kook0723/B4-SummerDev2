@@ -18,190 +18,111 @@ using UnityEngine;
        //1
         private static Vector2[] UV_ONE = 
         {
-            //右前向き
-            new Vector2(0.25f, 1.0f),
-            new Vector2(0.0f, 1.0f),
+            new Vector2(0.0f, 0.75f),
             new Vector2(0.25f, 0.75f),
-            new Vector2(0.0f, 0.75f)
-
-            //左前向き
-            //new Vector2(0.0f, 1.0f),
-            //new Vector2(0.0f, 0.75f),
-            //new Vector2(0.25f, 1.0f),
-            //new Vector2(0.25f, 0.75f)
+            new Vector2(0.0f, 1.0f),
+            new Vector2(0.25f, 1.0f)
         };
 
         //2
         private static Vector2[] UV_TWO =
         {
-            //右前向き
-            new Vector2(0.5f, 1.0f),
-            new Vector2(0.25f, 1.0f),
+            new Vector2(0.25f, 0.75f),
             new Vector2(0.5f, 0.75f),
-            new Vector2(0.25f, 0.75f)
-
-            //左前向き
-            //new Vector2(0.25f, 1.0f),
-            //new Vector2(0.25f, 0.75f),
-            //new Vector2(0.5f, 1.0f),
-            //new Vector2(0.5f, 0.75f)
+            new Vector2(0.25f, 1.0f),
+            new Vector2(0.5f, 1.0f)
 
         };
 
         //3
         private static Vector2[] UV_THREE =
         {
-            //右前向き
-            new Vector2(0.75f, 1.0f),
-            new Vector2(0.5f, 1.0f),
+            new Vector2(0.5f, 0.75f),
             new Vector2(0.75f, 0.75f),
-            new Vector2(0.5f, 0.75f)
-
-            //左前向き
-            //new Vector2(0.5f, 1.0f),
-            //new Vector2(0.5f, 0.75f),
-            //new Vector2(0.75f, 1.0f),
-            //new Vector2(0.75f, 0.75f)
+            new Vector2(0.5f, 1.0f),
+            new Vector2(0.75f, 1.0f)
 
         };
 
         //4
         private static Vector2[] UV_FOUR =
         {
-            //右前向き
-            new Vector2(1.0f, 1.0f),
-            new Vector2(0.75f, 1.0f),
+            new Vector2(0.75f, 0.75f),
             new Vector2(1.0f, 0.75f),
-            new Vector2(0.75f, 0.75f)
-
-            //左前向き
-            //new Vector2(0.75f, 1.0f),
-            //new Vector2(0.75f, 0.75f),
-            //new Vector2(1.0f, 1.0f),
-            //new Vector2(1.0f, 0.75f)
+            new Vector2(0.75f, 1.0f),
+            new Vector2(1.0f, 1.0f)
         };
 
         //5
         private static Vector2[] UV_FIVE =
         {
-            //右前向き
-            new Vector2(0.25f, 0.75f),
-            new Vector2(0.0f, 0.75f),
+            new Vector2(0.0f, 0.5f),
             new Vector2(0.25f, 0.5f),
-            new Vector2(0.0f, 0.5f)
-
-            //左前向き
-            //new Vector2(0.0f, 0.75f),
-            //new Vector2(0.0f, 0.5f),
-            //new Vector2(0.25f, 0.75f),
-            //new Vector2(0.25f, 0.5f)
+            new Vector2(0.0f, 0.75f),
+            new Vector2(0.25f, 0.75f)
         };
 
         //6
         private static Vector2[] UV_SIX =
         {
-            //右前向き
-            new Vector2(0.5f, 0.75f),
-            new Vector2(0.25f, 0.75f),
+            new Vector2(0.25f, 0.5f),
             new Vector2(0.5f, 0.5f),
-            new Vector2(0.25f, 0.5f)
-
-            //左前向き
-            //new Vector2(0.25f, 0.75f),
-            //new Vector2(0.25f, 0.5f),
-            //new Vector2(0.5f, 0.75f),
-            //new Vector2(0.5f, 0.5f)
+            new Vector2(0.25f, 0.75f),
+            new Vector2(0.5f, 0.75f)
         };
 
         //7
         private static Vector2[] UV_SEVEN =
         {
-            //右前向き
-            new Vector2(0.75f, 0.75f),
-            new Vector2(0.5f, 0.75f),
+            new Vector2(0.5f, 0.5f),
             new Vector2(0.75f, 0.5f),
-            new Vector2(0.5f, 0.5f)
-
-            //左前向き
-            //new Vector2(0.5f, 0.75f),
-            //new Vector2(0.5f, 0.5f),
-            //new Vector2(0.75f, 0.75f),
-            //new Vector2(0.75f, 0.5f)
-
-        };
+            new Vector2(0.5f, 0.75f),
+            new Vector2(0.75f, 0.75f)
+            };
 
         //8
         private static Vector2[] UV_EIGHT =
         {
-            //右前向き
-            new Vector2(1.0f, 0.75f),
-            new Vector2(0.75f, 0.75f),
+            new Vector2(0.75f, 0.5f),
             new Vector2(1.0f, 0.5f),
-            new Vector2(0.75f, 0.5f)
-
-            //左前向き
-            //new Vector2(0.75f, 0.75f),
-            //new Vector2(0.75f, 0.5f),
-            //new Vector2(1.0f, 0.75f),
-            //new Vector2(1.0f, 0.5f)
+            new Vector2(0.75f, 0.75f),
+            new Vector2(1.0f, 0.75f)
         };
 
         //黒ドクロ
         private static Vector2[] UV_BOMB_A =
         {
-            //右前向き
-            new Vector2(0.25f, 0.5f),
-            new Vector2(0.0f, 0.5f),
+            new Vector2(0.0f, 0.25f),
             new Vector2(0.25f, 0.25f),
-            new Vector2(0.0f, 0.25f)
-
-            //左前向き
-            //new Vector2(0.0f, 0.5f),
-            //new Vector2(0.0f, 0.25f),
-            //new Vector2(0.25f, 0.5f),
-            //new Vector2(0.25f, 0.25f)
+            new Vector2(0.0f, 0.5f),
+            new Vector2(0.25f, 0.5f)
         };
 
         //赤ドクロ
         private static Vector2[] UV_BOMB_B =
         {
-            //右前向き
-            new Vector2(0.5f, 0.5f),
-            new Vector2(0.25f, 0.5f),
+            new Vector2(0.25f, 0.25f),
             new Vector2(0.5f, 0.25f),
-            new Vector2(0.25f, 0.25f)
-
-            //左前向き
-            //new Vector2(0.25f, 0.5f),
-            //new Vector2(0.25f, 0.25f),
-            //new Vector2(0.5f, 0.5f),
-            //new Vector2(0.5f, 0.25f)
+            new Vector2(0.25f, 0.5f),
+            new Vector2(0.5f, 0.5f)
         };
 
         //チェックマーク
         private static Vector2[] UV_CHECK =
         {
-            //右前向き
-            new Vector2(0.75f, 0.5f),
-            new Vector2(0.5f, 0.5f),
+            new Vector2(0.5f, 0.25f),
             new Vector2(0.75f, 0.25f),
-            new Vector2(0.5f, 0.25f)
-
-            //左前向き
-            //new Vector2(0.5f, 0.5f),
-            //new Vector2(0.5f, 0.25f),
-            //new Vector2(0.75f, 0.5f),
-            //new Vector2(0.75f, 0.25f)
+            new Vector2(0.5f, 0.5f),
+            new Vector2(0.75f, 0.5f)
         };
 
         //空白（空いていない状態）
         private static Vector2[] UV_BLANK =
         {
-            //右前向き&左前向き
-            new Vector2(1.0f, 0.5f),
-            new Vector2(0.75f, 0.5f),
+            new Vector2(0.75f, 0.25f),
             new Vector2(1.0f, 0.25f),
-            new Vector2(0.75f, 0.25f)
+            new Vector2(0.75f, 0.5f),
+            new Vector2(1.0f, 0.5f)
         };
 
         /// <summary>
@@ -238,6 +159,7 @@ using UnityEngine;
         {
             Mesh mesh = GetComponent<MeshFilter>().mesh;
             mesh.uv = UV_BLANK;
+
         }
 
         /// <summary>
@@ -280,4 +202,5 @@ using UnityEngine;
         }
 
     }
+
 
