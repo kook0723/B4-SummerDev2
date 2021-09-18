@@ -28,6 +28,9 @@ using UnityEngine;
 
         // 定数
         
+        // タグ
+        public static string TAG_BLOCK = "Block";
+        
         // ゲームレベル
         public const int LEVEL_EASY = 1, LEVEL_NORMAL = 2, LEVEL_HARD = 3;
 
